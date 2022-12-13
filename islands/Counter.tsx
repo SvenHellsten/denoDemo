@@ -5,6 +5,11 @@ interface CounterProps {
   start: number;
 }
 
+interface twoid {
+  tmie : string[];
+  key: string;
+}
+
 export default function Counter(props: CounterProps) {
   const [count, setCount] = useState(props.start);
   return (
